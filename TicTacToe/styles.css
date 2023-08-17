@@ -1,0 +1,69 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+body,html{
+    height:100%;
+    width: 100%;
+    background: linear-gradient(to bottom, #eb3349 0%, #f45c43 100%);
+}
+
+#main{
+    margin: 0 30% ;
+    width: 30%;
+    height: 300px;
+    background: black;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    box-shadow: 0 0 40px black;
+}
+#msg{
+    margin-left: 40%;
+    margin-bottom: 20px;
+    width: 130px;
+    height: 50px;
+    padding-top: 50px;
+    text-align: center;
+}
+#tic{
+    margin-top: 10px;
+    margin-left: 39%;
+}
+.tiles{
+    width:32.3%;
+    height:83px;
+    text-align: center;
+    padding: 15px 0 0;
+    font-size: 40px;
+    font-weight: 20px;
+    font-size: 5vw;
+    color:#eb3349;
+}
+.tiles:hover{
+    cursor: pointer;
+}
+button{
+    border: none;
+    background-color:black;
+    box-shadow: 0 0 40px black;
+    width:100px;
+    color:#eb3349;
+    height: 40px;
+    margin-left: 40%;
+    margin-top: 40px;
+    cursor: pointer; 
+    display: none;
+    font-size: 1.2rem;
+}
+button:active{
+    box-shadow:none;
+    height:39px;
+    width:95px;
+}
+@keyframes colors {
+    from {color: #eb3349;}
+    to {color: black;}
+  }
